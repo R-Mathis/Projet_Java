@@ -18,10 +18,10 @@ import android.widget.Toast;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.constraintlayout.widget.ConstraintLayout;
 
-import java.util.ArrayList;
-
+//ajout de la fonction de sauvegarde des parties meybe ajout d'une activité en plus
 
 public class Game extends AppCompatActivity {
+    //fonction d'affichage des personnages en fonction de leurs caracteristiques
     public void get_character(int id,TextView mana, TextView Pv,ListCharacters listp,TextView Nom){
 
 
@@ -67,9 +67,10 @@ public class Game extends AppCompatActivity {
         ConstraintLayout layout=findViewById(R.id.Background);
         TableLayout interfaceCombat= findViewById(R.id.IntfCombat);
         ProgressBar bar =findViewById(R.id.progressBar3);
-        TableLayout interfacePersonnage=findViewById(R.id.personnage);
-        TextView Nom=findViewById(R.id.Nom);
-        GridView ListSorts=findViewById(R.id.List_sort);
+        TableLayout interfacePersonnage = findViewById(R.id.personnage);
+        TextView Nom = findViewById(R.id.Nom);
+        GridView ListSorts = findViewById(R.id.List_sort);
+
         ImageView imagePerso=findViewById(R.id.ImagePerso);
         TextView nomEnnemy = findViewById(R.id.Nom_Ennemie);
         TextView pvEnnemy = findViewById(R.id.Pv_Ennemy);
